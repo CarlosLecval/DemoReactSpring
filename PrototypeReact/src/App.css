@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.product-details{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-width: 300px;
+  margin-top: 12px;
+}
+
+.product-name{
+  font-size: larger;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product-price {
+  margin: 0;
+}
