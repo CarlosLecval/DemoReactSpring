@@ -24,10 +24,10 @@ function App() {
 
       {products.map(product =>
         <div className='product' key={product.id}>
-          <img src={product.imageUrl} style={{ width: '300px' }}/>
+          <img src={product.imageUrl} style={{ width: '300px', borderRadius: '12px 12px 0px 0px'}}/>
           <div className='product-details'>
             <p className='product-name'>{product.name}</p>
-            <p className='product-price'>{product.price}</p>
+            <p className='product-price'>${product.price}</p>
           </div>
         </div>
       )}
